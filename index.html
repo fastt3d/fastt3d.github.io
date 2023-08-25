@@ -204,6 +204,59 @@
   
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            With the rise in demand for 3D asset creation, text-to-3D generation technologies have emerged as a pivotal solution. 
+            Existing methods generally adopt either learning-based strategies, utilizing text-3D data, or optimization-based strategies 
+            with the 2D gradient from 2D generation models. However, both strategies exhibit imbalances in terms of diversity, efficiency, 
+            and quality, significantly limiting their practicality.
+          </p>
+            To take a step toward practical deployment, we introduce  an innovative framework for Fast Text-to-3D generation (Fast-T3D) 
+            that also ensures generation quality and diversity. Harnessing the strengths of both learning-based and optimization-based methods, 
+            our framework has two technical contributions. Firstly, our proposed 3D Prior-Binding Module effectively learns text-3D association 
+            from scarce 3D priors, eliminating the need for extensive datasets and boosting geometric consistency. Secondly, our 2D 
+            Multi-Gradient Optimizer expands training across diverse text prompts, inheriting generation scalability and facilitating 
+            fast-forward inference.
+          <p>
+          
+          <p>
+            Compared to existing state-of-the-art methods, Fast-T3D boosts a remarkable 3000X speed enhancement over ProlificDreamer, 
+            while also outperforming in qualitative and quantitative evaluations, demonstrating the superiority in the textual and geometric 
+            consistency of 3D generations.
+          </p>
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <hr>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <p>
+            In this work, we introduce Fast-T3D, a pioneering framework for text-to-3D generation, illustrated in following Figure. 
+            The overall architecture of Fast-T3D consists of two main components: (1) <i>3D Prior-Binding Module</i> to construct text-3D 
+            association with scarce 3D priors. (2) <i>2D Multi-Gradient Optimizer</i> to inherit generation capabilities and facilitate 
+            efficient inference from comprehensive training scope.
+          </p>
+        </div> 
+        <img src="./static/images/framework.png">
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
